@@ -1,0 +1,27 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+ 
+    <route default>
+        <application name="@root/header-hijo"></application>
+        <application name="@root/body-hijo2"></application>
+        <application name="@root/footer-hijo"></application>
+    </route>
+  
+</single-spa-router>
